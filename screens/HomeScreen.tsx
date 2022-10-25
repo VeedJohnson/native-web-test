@@ -32,9 +32,9 @@ const HomeScreen = ({navigation}: HomeNavProps) => {
             containerStyle={styles.img}
         />
               {/* <Image
-        style={styles.tinyLogo}
+        style={styles.img}
         source={{
-          uri: 'https://reactnative.dev/img/tiny_logo.png',
+          uri: 'https://img.freepik.com/free-vector/happy-united-business-team_74855-6520.jpg',
         }}
       /> */}
 
@@ -64,15 +64,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#C3E8BD',
     paddingTop: 40,
     paddingHorizontal: 10,
-  },
-  button: {
-    backgroundColor: '#ADBDFF',
-    padding: 5,
-    marginVertical: 20,
-    alignSelf: 'flex-start',
-  },
-  title: {
-    fontSize: 40,
   },
   img: {
     width: "100%",
